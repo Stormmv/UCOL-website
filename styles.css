@@ -1,0 +1,43 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-image: url("images/coffee2.jpg");
+    min-height: auto; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url("images/coffee3.jpg");
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background: url("images/coffee.jpg") no-repeat center;
+    min-height: auto; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:auto;
+    background:#6cf;
+}
+
+.fonterra {
+    aspect-ratio: 1;
+    width: 200px !important;
+}
